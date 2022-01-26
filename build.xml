@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF8"?>
 <project name="ant-jmeter" default="run" basedir=".">
-    <property name="jmeterPath" value="D:\apache-jmeter-5.1.1"/>
-    <property name="mail_host" value="smtp.163.com"/>
-    <property name="mail_port" value="465"/>
-    <property name="username" value="XXXXXX@163.com"/>
-    <property name="password" value="1234678"/>
-    <property name="mail_from" value="13XXXXXXXX6@163.com"/>
-    <property name="mail_to" value="l@globw.com,lua@gobw.com"/>
-    <property name="mailsubject" value="接口自动化测试报告"/>
-    <property name="message" value="今日接口测试任务已执行完毕，详情请查看附件！！!"/>
     
     <tstamp><format property="time" pattern="yyyyMMddHHmm" /></tstamp>
     
