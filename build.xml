@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF8"?>
 <project name="ant-jmeter" default="run" basedir=".">
-    
+    <property name="mailsubject" value="接口自动化测试报告"/>
+	
     <tstamp><format property="time" pattern="yyyyMMddHHmm" /></tstamp>
     
     <!-- jmeter环境配置 -->
